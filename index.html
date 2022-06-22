@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>François FARLAN</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/cdecc3c578.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!--nav-->
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md sticky-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <img id ="logo" src="images/logoptf.png" alt="logo" />
+                <span>François FARLAN</span>
+            </div>
+            
+            <button type="button" class="btn btn-outline-secondary navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id ="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projets">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>s
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+
+    <header id="accueil" style="background-image : url(images/background.jpg) ; background-size: cover; background-position: center">
+    </header>
+
+    <!--Bienvenue-->
+
+    <section class="bg-light p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <h3>Bienvenue</h3>
+                <p>Bienvenue sur mon portfolio personnel qui recense une partie des projets que j'ai réalisés pendant ma formation ou lors 
+                    d'expériences professionnelles. Vous pouvez naviguer librement dans les différentes sections du site pour découvrir ces projets, 
+                    et connaitre mes compétences. Pour toute demande, n'hésitez pas à me contacter via la rubrique "Contact".</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CV-->
+
+    <section id="cv" class="p-5">
+        <div class="container">
+            <div class="row">
+                <h3>CV</h3>
+                <div class="col-lg-6">
+                    <div class="card mb-4 cardrow">
+                        <div class="card-header">
+                            <i class="fa-solid fa-magnifying-glass"></i><h5 class="px-5 d-inline">Mes compétences</h5>
+                        </div>
+                        <div class="card-body">
+                            
+                            <ul>
+                                <li>Esprit d'analyse et logique</li>
+                                <li>Bonne connaissance du Web & de l'informatique</li>
+                                <li>Maitrise de l'anglais écrit et aisance à l'oral</li>
+                                <li>Goût du travail en équipe</li>
+                                <li>Savoir analyser la demande d'un client</li>     
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-4 cardrow">
+                        <div class="card-header">
+                            <i class="fa-solid fa-laptop-code"></i><h5 class="px-5 d-inline">Langages</h5>
+                        </div>
+                        
+                        <div class="card-body">
+                            <ul>
+                                <li>Bases des Langages de programmation Front-end : HTML5, CSS3, JS</li>
+                                <li>Bases des Langages de programmation Back-end : PHP & MySQL</li> 
+                                <li>Framework : Bootstrap, React</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-4 cardrow2">
+                        <div class="card-header">
+                            <i class="fa-solid fa-briefcase"></i><h5 class="px-5 d-inline">Mon parcours professionnel</h5>
+                        </div>
+                        
+                        <div class="card-body">
+                            <ul>
+                                <li>2022 - Aujourd'hui : Développement Web</li>
+                                <li> 2018 - 2022 : Conseiller en Mobilité Professionnelle à <small>GIRPEH Aquitaine</small></li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card mb-4 cardrow2">
+                        <div class="card-header">
+                            <i class="fa-solid fa-scroll"></i><h5 class="px-5 d-inline">Mes diplômes</h5>
+                        </div>
+                        
+                        <div class="card-body">
+                            <ul>
+                                <li>2017 : M2 Psychologue du Travail & des Organisation à <small>Université de Bordeaux</small></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projets-->
+
+    <section id="projets" class="p-5 bg-light">
+        <div class="container">
+            <h3>Projets</h3>
+            <div class="row">
+
+                 <!--projet-->
+
+                 <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="images/illustration_1.png" alt="1er projet" />
+                        <div class="card-body text-center">
+                            Compteur dynamique en Javascript
+                        </div>
+                        <div class="card-footer">
+                            <button id="buttoncounter" type="button" class="btn btn-outline-secondary w-100" data-bs-toggle="modal" data-bs-target="#counter">
+                                Voir le projet
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!--projet-->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4">
+                        <img class ="img-fluid" src="images/illustration_2.jpg" alt="2nd projet" />
+                    </div>
+                </div>
+
+                <!--projet-->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="images/illustration_3.jpg" alt="3eme projet" />
+                        <div class="card-body text-center">
+                            Bouton dynamique en Javascript
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-outline-secondary w-100" data-bs-toggle="modal" data-bs-target="#emojirating">
+                                Voir le projet
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4">
+                        <img src="images/illustration_4.jpg" alt="4eme projet" />
+                    </div>
+                </div>
+
+                <!--projet-->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4">
+                        <img src="images/illustration_5.jpg" alt="5eme projet" />
+                    </div>
+                </div>
+
+                <!--projet-->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4">
+                        <img src="images/illustration_6.jpg" alt="6eme projet" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Modals-->
+    <!--emoji-->
+    <div id="emojirating" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Bouton Evaluer avec Emoji
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div id="emoji">
+                        <div class="feedback-container">
+                            <div class="emoji-container">
+                              <i class="far fa-angry fa-3x"></i>
+                              <i class="far fa-frown fa-3x"></i>
+                              <i class="far fa-meh fa-3x"></i>
+                              <i class="far fa-smile fa-3x"></i>
+                              <i class="far fa-laugh fa-3x"></i>
+                            </div>
+                            <div class="rating-container">
+                              <i class="fas fa-star fa-2x active"></i>
+                              <i class="fas fa-star fa-2x"></i>
+                              <i class="fas fa-star fa-2x"></i>
+                              <i class="fas fa-star fa-2x"></i>
+                              <i class="fas fa-star fa-2x"></i>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        Fermer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Compteur-->
+
+    <div id="counter" class="modal fade">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Compteur dynamique auto-incrémenté
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div id="compteur">
+                        <div class="row main-stats-container">
+                            <div class="col-xl-3 stats-container">
+                                <i class="fa-solid fa-briefcase fa-3x icon"></i>
+                            <div class="counter" data-ceil="13">13</div>
+                            <h4>ans d'expérience</h4>
+                            </div>
+                            <div class="col-xl-3 stats-container">
+                                <i class="fa-brands fa-internet-explorer fa-3x icon"></i>
+                            <div class="counter" data-ceil="222">222</div>
+                            <h4>sites webs</h4>
+                            </div>
+                            <div class="col-xl-3 stats-container">
+                                <i class="fa-solid fa-database fa-3x icon"></i>
+                            <div class="counter" data-ceil="45">45</div>
+                            <h4>applications</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        Fermer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+
+    <section id="contact" class="p-5">  
+        <div class="container">
+            <h3>Contactez moi</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-4">
+                 
+
+                    <div style="max-width:100%;overflow:hidden;color:red;min-width:350px;height:375px;">
+                        <div id="mymap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=fougeres&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <style>#mymap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                
+
+                    <form>
+                        <input type="text" class="form-control" placeholder="Nom">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Objet">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Votre message"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="text-white btn btn-info mt-3">Contactez moi</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   
+    <!--Footer-->
+    
+    <footer class="bg-dark text-center text-white p-4">
+        <span id="copyright"></span>
+    </footer>
+
+    <!--Scripts-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
